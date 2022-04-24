@@ -4,7 +4,7 @@
   "description": "OpenTelemetry dendenmushi automatic instrumentation package.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,17 @@
     "nodejs"
   ],
   "author": "taevas <yu.zheng@upai.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@opentelemetry/core": "^1.0.1",
+    "@opentelemetry/instrumentation": "^0.27.0",
+    "@opentelemetry/semantic-conventions": "^1.0.1",
+    "@upyun/dendenmushi": "^3.1.0",
+    "dendenmushi": "npm:@upyun/dendenmushi@^3.1.0"
+  },
+  "devDependencies": {
+    "@opentelemetry/context-async-hooks": "^1.0.1",
+    "@opentelemetry/sdk-trace-base": "^1.0.1",
+    "jest": "^27.5.1"
+  }
 }
