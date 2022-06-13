@@ -23,12 +23,14 @@
     "@opentelemetry/api": "^1.1.0",
     "@opentelemetry/core": "^1.0.1",
     "@opentelemetry/instrumentation": "^0.27.0",
-    "@opentelemetry/semantic-conventions": "^1.0.1",
-    "@upyun/dendenmushi": "^3.1.0"
+    "@opentelemetry/semantic-conventions": "^1.0.1"
   },
   "devDependencies": {
     "@opentelemetry/context-async-hooks": "^1.0.1",
     "@opentelemetry/sdk-trace-base": "^1.0.1",
     "jest": "^27.5.1"
+  },
+  "optionalDependencies": {
+    "@upyun/dendenmushi": "^3.1.0"
   }
 }
